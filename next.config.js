@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+module.exports = {
+  images: {
+    dangerouslyAllowSVG: true,
+    domains: ["rb.gy", "e-hentai.org"],
+  },
+};
 
-module.exports = nextConfig
+
